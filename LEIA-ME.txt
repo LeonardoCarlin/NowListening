@@ -1,0 +1,24 @@
+NowListening — tema personalizado para zapdel-now-playing (OBS)
+===============================================================
+
+Conteúdo:
+- NowListening/index.html
+- NowListening/style.css
+- NowListening/theme.json
+
+Instalação:
+1. No OBS, abra as propriedades da fonte "Now Playing".
+2. Clique em "Open Themes Folder".
+3. Copie a pasta inteira "NowListening" para a pasta "themes" que abriu.
+4. Feche e reabra as propriedades da fonte. Se necessário, reinicie o OBS.
+5. Escolha "NowListening" no menu Theme.
+6. Defina Visibility como "Always visible" para manter a barra visível enquanto houver mídia ativa.
+
+O tema mostra capa opcional (respeita "Show album art"), ícone musical azul-claro,
+título branco em negrito, artista branco/cinza-claro na mesma linha e equalizador
+animado azul-claro. O fundo é cinza muito escuro e semitransparente.
+
+Não substitui nem altera os temas originais. Para remover, feche o OBS e apague
+somente a pasta "NowListening" que você adicionou à pasta themes.
+
+Observação: a barra usa os metadados que o Windows/SMTC recebe do aplicativo.

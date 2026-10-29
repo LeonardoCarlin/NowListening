@@ -1,0 +1,8 @@
+{
+  "name": "NowListening",
+  "author": "Leonardo Carlin",
+  "version": "1.0.0",
+  "description": "Minimal horizontal Now Playing bar with blue icons and animated equalizer.",
+  "defaultWidth": 1920,
+  "defaultHeight": 64
+}

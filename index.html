@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="np-container" class="widget np-hidden" aria-live="polite">
+
+        <div id="np-art-wrap" style="display:none">
+            <img id="np-art" class="album-art" alt="" style="display:none">
+            <div id="np-art-placeholder" style="display:none">♫</div>
+        </div>
+
+
+        <span class="music-note" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="presentation">
+                <path d="M9 18V5l12-2v13" />
+                <circle cx="6" cy="18" r="3" />
+                <circle cx="18" cy="16" r="3" />
+            </svg>
+        </span>
+
+        <div class="track-line" id="np-title-wrap">
+            <span id="np-title" class="track-title"></span>
+            <span id="np-sep" class="track-separator" style="display:none"> - </span>
+            <span id="np-artist" class="track-artist"></span>
+            <span id="np-album" class="track-artist"></span>
+        </div>
+
+        <div class="equalizer" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+        </div>
+
+        <div id="np-progress-wrap" class="progress-track" style="display:none">
+            <div id="np-progress-bar" class="progress-fill"></div>
+        </div>
+    </main>
+
+    <script src="../np-core.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html>
